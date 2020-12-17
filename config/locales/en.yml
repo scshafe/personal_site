@@ -30,5 +30,5 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
   name: "Cole Shaffer"
+  welcome_message: "Hello, this is my site"
