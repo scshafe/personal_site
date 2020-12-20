@@ -1,0 +1,7 @@
+
+
+.skills-section
+  %p Skills Section
+  -t("skills").each do |skill_key, skill_data|
+    = button_tag(skill_data.fetch(:title), id: "#{skill_data.fetch(:identifier)}-button", class: "skill-item", type: "button")
+    .skill-description-hidden{id: "#{skill_data.fetch(:identifier)}-description"}= skill_data.fetch(:description)

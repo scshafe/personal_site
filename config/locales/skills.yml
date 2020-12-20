@@ -1,0 +1,9 @@
+
+
+
+en:
+  skills:
+    skill:
+      title: "C/C++"
+      identifier: "c-skill"
+      description: "My first coding language"

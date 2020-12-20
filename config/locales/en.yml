@@ -32,3 +32,21 @@
 en:
   name: "Cole Shaffer"
   welcome_message: "Hello, this is my site"
+  navbar:
+    experience: "experience"
+    education: "education"
+  info:
+    experiences:
+      experience:
+        title: "Symantec Software Engineering Intern"
+        begin_at: "first date"
+        ended_at: "later date"
+        description: "yada yada yada"
+    educations:
+      education:
+        title: "University of Michigan"
+        begin_at: "2015"
+        ended_at: "2019"
+        description: "yeetmeister"
+    
+

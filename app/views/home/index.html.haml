@@ -1,2 +1,17 @@
-%h1= t('name')
-%h2= t('welcome_message')
+.content
+  .sidebar-navigation
+    -t("navbar").each do |info_key, info_data|
+      .nav-section= info_data
+
+
+  .info-content
+    #experience-section
+      -t("info.experiences").each do |experience_key, experience_data|
+        .experience-name= experience_data.fetch(:title)
+        .description= experience_data.fetch(:description)
+    #education-section
+      -t("info.educations").each do |education_key, education_data|
+        .education-name= education_data.fetch(:title)
+        .description= education_data.fetch(:description)
+
+    = render partial: "skills"
