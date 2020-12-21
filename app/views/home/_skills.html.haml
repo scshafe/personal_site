@@ -1,6 +1,6 @@
 
 
-.skills-section
+.info-section#skills
   %p Skills Section
   -t("skills").each do |skill_key, skill_data|
     = button_tag(skill_data.fetch(:title), id: "#{skill_data.fetch(:identifier)}-button", class: "skill-item", type: "button")

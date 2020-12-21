@@ -35,13 +35,19 @@ en:
   navbar:
     experience: "experience"
     education: "education"
+    skills: "skills"
   info:
     experiences:
-      experience:
+      symantec:
         title: "Symantec Software Engineering Intern"
         begin_at: "first date"
         ended_at: "later date"
         description: "yada yada yada"
+      croma:
+        title: "Croma Lab"
+        begin_at: "first date"
+        ended_at: "second date"
+        description: "a lab"
     educations:
       education:
         title: "University of Michigan"

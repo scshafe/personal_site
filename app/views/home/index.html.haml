@@ -1,15 +1,14 @@
 .content
   .sidebar-navigation
     -t("navbar").each do |info_key, info_data|
-      .nav-section= info_data
-
+      =link_to info_data, "#"+info_data
 
   .info-content
-    #experience-section
+    .info-section#experience
       -t("info.experiences").each do |experience_key, experience_data|
         .experience-name= experience_data.fetch(:title)
         .description= experience_data.fetch(:description)
-    #education-section
+    .info-section#education
       -t("info.educations").each do |education_key, education_data|
         .education-name= education_data.fetch(:title)
         .description= education_data.fetch(:description)
